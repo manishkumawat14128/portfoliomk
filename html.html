@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Kumawat | Portfolio</title>
+    
+    <!-- Import Google Font: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind (Optional, mainly using custom CSS below) -->
+    <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <header class="header">
+      <div class="logo">
+        <h1>MK</h1>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      
+      <!-- HERO / ABOUT SECTION -->
+      <section id="about" class="about-section">
+        <div class="container about-grid">
+          <div class="about-text">
+            <h1>Manish Kumawat</h1>
+            <p class="subtitle">B.Tech Student | Web Developer</p>
+            <p class="description">
+        I am a B.Tech undergraduate in Space Science and Engineering at the
+        Indian Institute of Technology (IIT) Indore, with a strong interest in
+        web development, scientific computing, and data-driven visualization. I
+        have experience working with HTML, CSS, JavaScript, Python, and basic
+        Three.js to develop interactive web applications and physics-based
+        simulations. My projects focus on combining engineering principles with
+        software development to create efficient, visually intuitive, and
+        educational solutions. I am motivated to continuously enhance my
+        technical expertise and problem-solving abilities.    </p>
+            <div class="resume-wrapper">
+                <a href="resume.pdf" download class="btn-primary">Download Resume</a>
+            </div>
+          </div>
+          <div class="about-image">
+            <!-- Replace with your actual image file -->
+            <img src="WhatsApp_Image_2025-12-16_at_4.47.47_AM-removebg-preview.png" alt="Manish Kumawat Profile">
+          </div>
+        </div>
+        
+
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section-pad">
+        <h2 class="section-title">Skills</h2>
+        <div class="container grid-container">
+            
+          <div class="card skill-card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>Web Tech</h3>
+            <ul>
+              <li>HTML5 & CSS3</li>
+              <li>React.js</li>
+              <li>Tailwind</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>Libraries</h3>
+            <ul>
+              <li>Three.js (Basic)</li>
+              <li>NumPy & Pandas</li>
+              <li>Matplotlib</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Power BI</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <h3>Hardware</h3>
+            <ul>
+              <li>Arduino IDE</li>
+              <li>EasyEDA</li>
+              <li>Fusion 360</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section-pad">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="container grid-projects">
+
+          <div class="card project-card">
+            <div class="video-container">
+              <!-- Added playsinline for mobile support -->
+              <video muted loop autoplay playsinline>
+                <source src="Recording 2025-12-16 050410.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="content">
+              <h3>3D Solar System</h3>
+              <p>Interactive Three.js visualization allowing orbit and zoom controls.</p>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <div class="video-container">
+              <video muted loop autoplay playsinline>
+                <source src="Recording 2025-12-16 050630.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="content">
+              <h3>Trajectory Sim</h3>
+              <p>Physics-based projectile path calculator with gravity inputs.</p>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <div class="video-container">
+              <video muted loop autoplay playsinline>
+                <source src="Recording 2025-12-16 051102.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="content">
+              <h3>3D Chess</h3>
+              <p>Browser-based chess logic with 3D assets (Work in Progress).</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact-section section-pad">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="social-links">
+          <a href="mailto:manishkumawat14134@gmail.com" aria-label="Email"><img src="communication.png" alt="Email"></a>
+          <a href="https://github.com/manishkumawat14128" target="_blank" aria-label="GitHub"><img src="github (1).png" alt="GitHub"></a>
+          <a href="#" target="_blank" aria-label="Instagram"><img src="instagram.png" alt="Instagram"></a>
+          <a href="#" target="_blank" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2025 Manish Kumawat</p>
+    </footer>
+
+  </body>
+</html>
